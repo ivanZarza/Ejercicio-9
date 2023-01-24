@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaciones y transiciones en CSS</title>
+    <link rel="stylesheet" href="Ejercicio-9.css" class="css">
+</head>
+<body>
+    <button class="btn-modern" >BUSCAR</button>
+    
+</body>
+</html
+
+.btn-modern {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-bottom: 2px solid darkgreen;
+    cursor: pointer;
+    
+   
+}
+.btn-modern:hover {
+    background-color: blue;
+    color: yellow;
+    animation: BTN 0.4s  ;
+    transform: translateY(-5px);
+    box-shadow: 3px 4px black ;   
+}
+    
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
